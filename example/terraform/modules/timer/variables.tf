@@ -1,0 +1,3 @@
+variable "duration" {
+  type = string
+}

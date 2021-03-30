@@ -1,0 +1,17 @@
+[package]
+name = "terraform"
+version = "0.1.0"
+authors = ["Philippe Chepy <philippe@chepy.eu>"]
+edition = "2018"
+license = "MIT"
+keywords = ["terraform"]
+categories = ["command-line-interface"]
+repository = "https://github.com/PhilippeChepy/terraform-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_repr = "0.1"

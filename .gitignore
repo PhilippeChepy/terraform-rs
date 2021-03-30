@@ -1,0 +1,7 @@
+/target
+
+/example/target
+/example/terraform/.terraform
+/example/terraform/.terraform.lock*
+/example/terraform/*.plan
+/example/terraform/terraform.tfstate*
