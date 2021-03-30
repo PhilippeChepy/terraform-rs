@@ -1,5 +1,6 @@
 [package]
 name = "terraform"
+description = "A wrapper around Terraform cli"
 version = "0.1.0"
 authors = ["Philippe Chepy <philippe@chepy.eu>"]
 edition = "2018"
